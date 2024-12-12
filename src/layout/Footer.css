@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  background-color: var(--gray9);
+  color: whitesmoke;
+  height: 800px;
+}
+.la {
+  background-color: transparent;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  width: 80px;
+}

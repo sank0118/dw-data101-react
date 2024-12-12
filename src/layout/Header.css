@@ -1,0 +1,35 @@
+header {
+  background-color: var(--gray9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid;
+}
+header ul {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+header button {
+  height: 40px;
+  width: 70px;
+  color: white;
+  background-color: transparent;
+}
+header .n {
+  font-size: 40px;
+  color: tomato;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+header button.la {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+header button.l {
+  background-color: tomato;
+  border-radius: 10px;
+}
