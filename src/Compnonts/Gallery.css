@@ -1,0 +1,35 @@
+.gal {
+  padding: 20px;
+}
+.gal .wrap {
+  position: relative;
+}
+.gal img {
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.gal button {
+  position: absolute;
+  border: 1px solid var(--gray6);
+  background-color: var(--gray6);
+  border-radius: 100px;
+  padding: 30px 3px;
+  top: 50%;
+}
+.gal button:hover {
+  opacity: 1;
+  background-color: var(--gray7);
+}
+.gal button.l {
+  left: 0;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.gal button.r {
+  right: 0;
+  transform: translate(50%, -50%);
+  color: black;
+}

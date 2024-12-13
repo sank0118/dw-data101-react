@@ -1,23 +1,19 @@
 import React from "react";
 import "./Header.css";
 import { SiNetflix } from "react-icons/si";
-import { IoLanguageOutline } from "react-icons/io5";
-
+import Langbtn from "./Langbtn";
 const Header = () => {
   return (
     <header>
-      <button className="n">
+      <button className="title">
         <SiNetflix />
       </button>
       <ul>
         <li>
-          <button className="h la">
-            <IoLanguageOutline />
-            언어
-          </button>
+          <Langbtn />
         </li>
         <li>
-          <button className="h l">로그인</button>
+          <button className="btn l">로그인</button>
         </li>
       </ul>
     </header>

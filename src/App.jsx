@@ -1,13 +1,19 @@
 import React from "react";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
+import Langbtn from "./layout/Langbtn";
+import Gallery from "./Compnonts/Gallery";
+import Auth from "./Compnonts/Auth";
+
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
-      <h1>App</h1>
+      <main>
+        <Gallery />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

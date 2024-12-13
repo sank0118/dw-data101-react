@@ -137,7 +137,33 @@
   padding: 0;
   list-style-type: none;
 }
-button {
+button,
+a {
   cursor: pointer;
   border: none;
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+}
+button:hover,
+a:hover {
+  opacity: 0.8;
+}
+button:active,
+a:active {
+  opacity: 0.5;
+}
+
+div,
+section,
+article,
+a,
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+}
+body {
+  background-color: var(--gray9);
+  color: var(--gray1);
 }

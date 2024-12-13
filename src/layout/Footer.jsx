@@ -1,60 +1,60 @@
 import React from "react";
 import "./Footer.css";
 import { IoLanguageOutline } from "react-icons/io5";
-
+import Langbtn from "./Langbtn";
 const Footer = () => {
   return (
     <footer>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore culpa
-        totam modi aspernatur iste iure dolores officiis exercitationem neque
-        repellendus! Vel quis debitis ex officia, placeat itaque voluptatibus
-        voluptas eligendi.
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 000000000 </p>
+
+      <ul>
+        <li>
+          <a href="">1</a>
+        </li>
+        <li>
+          <a href="">2</a>
+        </li>
+        <li>
+          <a href="">3</a>
+        </li>
+        <li>
+          <a href="">4</a>
+        </li>
+        <li>
+          <a href="">5</a>
+        </li>
+        <li>
+          <a href="">6</a>
+        </li>
+        <li>
+          <a href="">7</a>
+        </li>
+        <li>
+          <a href="">8</a>
+        </li>
+        <li>
+          <a href="">9</a>
+        </li>
+        <li>
+          <a href="">10</a>
+        </li>
+        <li>
+          <a href="">11</a>
+        </li>
+      </ul>
+      <div className="wrap">
+        <Langbtn />
       </div>
-      <div>
-        <ul>
-          <li>
-            <a href="">1asf</a>
-          </li>
-          <li>
-            <a href="">2asf</a>
-          </li>
-          <li>
-            <a href="">3asf</a>
-          </li>
-          <li>
-            <a href="">4asf</a>
-          </li>
-          <li>
-            <a href="">5asf</a>
-          </li>
-          <li>
-            <a href="">6asf</a>
-          </li>
-          <li>
-            <a href="">7asf</a>
-          </li>
-          <li>
-            <a href="">8asf</a>
-          </li>
-          <li>
-            <a href="">9asf</a>
-          </li>
-          <li>
-            <a href="">10asf</a>
-          </li>
-        </ul>
+
+      <div className="t">
+        <p>넷플릭스 코리아</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem
+          quidem, iusto nihil, amet ratione tempore aliquid commodi, perferendis
+          distinctio eligendi inventore fuga accusantium autem. Est placeat
+          architecto accusamus omnis!
+        </p>
       </div>
-      <div>
-        <button className="la">
-          <IoLanguageOutline />
-          언어
-        </button>
-      </div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias vero,
-      reprehenderit ratione facilis, nobis et animi quae ducimus ex saepe
-      distinctio delectus inventore sit commodi deleniti voluptatem culpa,
-      dolores aperiam.
     </footer>
   );
 };
