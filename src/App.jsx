@@ -1,23 +1,29 @@
 import React from "react";
-// import Header from "./layout/Header";
-// import Footer from "./layout/Footer";
-// import Langbtn from "./layout/Langbtn";
+import Header from "./layout/Header";
+import Langbtn from "./layout/Langbtn";
 import Gallery from "./Components/Gallery";
 import Auth from "./Components/Auth";
 import Ninput from "./Components/sample/Ninput";
-import Sinput from "./Components/sample/Sinput";
-import { name } from "./db";
+import Detail from "./Components/Detail";
+import Footer from "./layout/Footer";
+// import MQ from "./ex/MQ";
+// import GRID from "./ex/GRID";
+// import CAL from "./ex/CAL";
+// import { name } from "./db";
+
 const App = () => {
   return (
     <>
-      {/* <Header /> */}
-      {/* <main>
+      <Header />
+      <main>
         <Gallery />
         <Ninput />
-        <Sinput />
-      </main> */}
-      {/* <Footer /> */}
-      <h1>{name}</h1>
+        <Detail />
+      </main>
+      <Footer />
+      {/* <MQ /> */}
+      {/* <GRID /> */}
+      {/* <CAL /> */}
     </>
   );
 };

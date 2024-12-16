@@ -1,0 +1,35 @@
+header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+header button.title {
+  color: red;
+  font-size: 50px;
+}
+header button {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  background-color: transparent;
+}
+#her ul {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.lang,
+.log {
+  width: 70px;
+  height: 40px;
+  border: 1px solid var(--gray0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+}
+.lang {
+  border: 1px solid var(--gray0);
+}

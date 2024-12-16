@@ -1,0 +1,7 @@
+a:hover {
+  text-decoration: underline;
+}
+.lang {
+  border: 1px solid var(--gray0);
+  background-color: transparent;
+}

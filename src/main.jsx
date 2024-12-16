@@ -6,7 +6,7 @@ import { name } from "./db";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <title>{name}</title>
+    <title></title>
     <App />
   </StrictMode>
 );

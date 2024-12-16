@@ -1,0 +1,30 @@
+.detail {
+  background-color: var(--gray7);
+  border: 1px solid var(--gray8);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  transition: all 0.2s;
+}
+p {
+  margin: 10px;
+}
+.detail .btn {
+  background-color: var(--gray9);
+  border: 1px solid;
+  border-radius: 100px;
+
+  padding: 10px, 20px;
+}
+.detail div {
+  flex-direction: row;
+  margin-top: 5px;
+}
+.detail:hover {
+  background-color: var(-gray7);
+  color: var(--gray0);
+  transform: scale(1.03);
+}
+.detail:hover .btn {
+  border-color: var(--gray0);
+}

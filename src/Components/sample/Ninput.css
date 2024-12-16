@@ -1,5 +1,7 @@
 .ni {
   padding: 20px;
+  flex-direction: column;
+  display: flex;
 }
 .ni p {
   font-size: 0.7rem;
@@ -11,6 +13,9 @@
   outline: 10px;
   caret-color: var(--gray4);
   border-radius: 100px;
+  height: 40px;
+  color: white;
+  padding: 5px;
 }
 .ni input:focus {
   border-color: var(--gray4);

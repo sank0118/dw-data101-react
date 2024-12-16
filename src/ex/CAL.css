@@ -1,0 +1,20 @@
+.cal {
+  border: 1px solid var(--gray2);
+  background-color: var(--gray0);
+  color: var(--gray9);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cal .l div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cal .r {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
