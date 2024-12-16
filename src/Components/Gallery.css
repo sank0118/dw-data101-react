@@ -22,13 +22,13 @@
   opacity: 1;
   background-color: var(--gray7);
 }
-.gal button.l {
+.gal button#l {
   left: 0;
   transform: translate(-50%, -50%);
   color: black;
 }
 
-.gal button.r {
+.gal button#r {
   right: 0;
   transform: translate(50%, -50%);
   color: black;

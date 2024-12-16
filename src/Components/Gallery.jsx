@@ -6,8 +6,8 @@ const Gallery = () => {
     <div className="gal">
       <div className="wrap">
         <img src={img} />
-        <button className="l">◀</button>
-        <button className="r">▶</button>
+        <button id="l">◀</button>
+        <button id="r">▶</button>
       </div>
     </div>
   );
