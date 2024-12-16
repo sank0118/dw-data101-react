@@ -1,5 +1,7 @@
 .ni {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .ni p {
   font-size: 0.7rem;
@@ -8,22 +10,13 @@
 .ni input {
   background-color: transparent;
   border: 1px solid var(--gray4);
-  outline: 10px;
   caret-color: var(--gray4);
   border-radius: 100px;
+  color: var(--gray4);
 }
 .ni input:focus {
   border-color: var(--gray4);
 }
 .ni input::placeholder {
   caret-color: var(--gray4);
-}
-.ni button {
-  background-color: var(--red7);
-  padding: 10px 20px;
-  border-radius: 100px;
-}
-.ni .btn {
-  flex-direction: row;
-  justify-content: center;
 }
