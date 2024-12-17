@@ -5,3 +5,9 @@ a:hover {
   border: 1px solid var(--gray0);
   background-color: transparent;
 }
+footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}

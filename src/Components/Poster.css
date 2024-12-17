@@ -1,0 +1,32 @@
+.poster {
+  padding: 20px;
+  row-gap: 10px;
+}
+.poster ul {
+  padding: 5px;
+  display: flex;
+  column-gap: 10px;
+}
+.poster li {
+  border: 1px solid;
+  width: 180px;
+  height: 240px;
+  border-radius: 10px;
+
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s;
+}
+.poster li:hover {
+  transform: scale(1.1);
+}
+.poster img {
+  height: 100%;
+  object-fit: cover;
+}
+.poster li p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

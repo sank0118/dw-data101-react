@@ -1,0 +1,13 @@
+.lb {
+  padding: 20px;
+  row-gap: 10px;
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lb button {
+  background-color: var(--red8);
+  border-radius: 100px;
+  padding: 16px 32px;
+}

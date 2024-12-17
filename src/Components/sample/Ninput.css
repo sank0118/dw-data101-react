@@ -31,4 +31,5 @@
 .ni .btn {
   flex-direction: row;
   justify-content: center;
+  margin: 10px auto;
 }
