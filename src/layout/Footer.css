@@ -11,3 +11,6 @@ footer {
   flex-direction: column;
   row-gap: 20px;
 }
+.lorem {
+  font-size: 12px;
+}

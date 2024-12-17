@@ -65,7 +65,7 @@ const Footer = () => {
       <div className="text">
         <p>넷플릭스 대한민국</p>
         <br />
-        <p>
+        <p className="lorem">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
           impedit neque dignissimos laborum, fugiat nobis sed nemo, ab veritatis
           vel libero. Ex sequi debitis beatae! Facilis at error maiores quos.
